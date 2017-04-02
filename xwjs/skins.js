@@ -32,7 +32,7 @@ var sks = [{
             },
             pic: 'img/panorama/yuxiao_u.jpeg',
             caption: '视频'
-        }*/]
+        }]*/
     },
     range: {
         y: 180
