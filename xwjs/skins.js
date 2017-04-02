@@ -8,12 +8,13 @@ var sks = [{
     loadingMedia: 'img/loading/preloader-menswear.jpg',
     lv3LoadingMedia: 'img/loading/preloader-menswear.jpg',
     media: [
-        'img/panorama/yuxiao_n.jpeg',
-        'img/panorama/yuxiao_e.jpeg',
-        'img/panorama/yuxiao_s.jpeg',
-        'img/panorama/yuxiao_w.jpeg',
-        'img/panorama/yuxiao_u.jpeg',
-        'img/panorama/yuxiao_d.jpeg'
+        
+        'img/panorama/luyi_n.jpg',
+        'img/panorama/luyi_e.jpg',
+        'img/panorama/luyi_s.jpg',
+        'img/panorama/luyi_w.jpg',
+        'img/panorama/luyi_u.jpg',
+        'img/panorama/luyi_d.jpg'
     ],
     hotSpots: {
         images: [{
@@ -47,12 +48,12 @@ var sks = [{
     loadingMedia: 'img/loading/preloader-umbrella.jpg',
     lv3LoadingMedia: 'img/loading/preloader-umbrella.jpg',
     media: [
-        'img/panorama/umbrella_n.jpg',
-        'img/panorama/umbrella_e.jpg',
-        'img/panorama/umbrella_s.jpg',
-        'img/panorama/umbrella_w.jpg',
-        'img/panorama/umbrella_u.jpg',
-        'img/panorama/umbrella_d.jpg'
+        'img/panorama/yuxiao_n.jpeg',
+        'img/panorama/yuxiao_e.jpeg',
+        'img/panorama/yuxiao_s.jpeg',
+        'img/panorama/yuxiao_w.jpeg',
+        'img/panorama/yuxiao_u.jpeg',
+        'img/panorama/yuxiao_d.jpeg'
     ],
     hotSpots: {
         images: [{
