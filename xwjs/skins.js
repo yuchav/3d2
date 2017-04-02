@@ -1,4 +1,43 @@
 var sks = [{
+    chapter: '0',
+    details: {
+        h: 'ZERO',
+        p: '0'
+    },
+    lv3Media: 'img/lv3/umbrella-level3.jpg',
+    loadingMedia: 'img/loading/preloader-umbrella.jpg',
+    lv3LoadingMedia: 'img/loading/preloader-umbrella.jpg',
+    media: [
+        'img/panorama/mobile_n.jpg',
+        'img/panorama/mobile_e.jpg',
+        'img/panorama/mobile_s.jpg',
+        'img/panorama/mobile_w.jpg',
+        'img/panorama/mobile_u.jpg',
+        'img/panorama/mobile_d.jpg'
+    ],
+    hotSpots: {
+        images: [{
+            face: 'n',
+            x: '50%',
+            y: '50%',
+            media: 'img/panorama/mobile_n.jpg',
+            caption: '图'
+        }]/*,
+        videos: [{
+            face: 'n',
+            x: '90%',
+            y: '90%',
+            media: {
+                mp4: 'http://appmedia.qq.com/media/641010718/panorama/video/umbrella-video.mp4'
+            },
+            pic: 'img/panorama/yuxiao_u.jpeg',
+            caption: '视频'
+        }*/]
+    },
+    range: {
+        y: 180
+    }
+}, {
     chapter: '1',
     details: {
         h: 'ONE',
@@ -8,7 +47,7 @@ var sks = [{
     loadingMedia: 'img/loading/preloader-menswear.jpg',
     lv3LoadingMedia: 'img/loading/preloader-menswear.jpg',
     media: [
-        
+
         'img/panorama/luyi_n.jpg',
         'img/panorama/luyi_e.jpg',
         'img/panorama/luyi_s.jpg',
@@ -17,7 +56,7 @@ var sks = [{
         'img/panorama/luyi_d.jpg'
     ],
     hotSpots: {
-        images: [{
+        /*images: [{
             face: 'n',
             x: '50%',
             y: '50%',
@@ -33,7 +72,7 @@ var sks = [{
             },
             pic: 'img/panorama/yuxiao_d.jpeg',
             caption: '视频'
-        }]
+        }]*/
     },
     range: {
         y: 180
@@ -56,6 +95,7 @@ var sks = [{
         'img/panorama/yuxiao_d.jpeg'
     ],
     hotSpots: {
+        /*
         images: [{
             face: 'n',
             x: '50%',
@@ -73,6 +113,7 @@ var sks = [{
             pic: 'img/panorama/yuxiao_u.jpeg',
             caption: '视频'
         }]
+        */
     },
     range: {
         y: 180
