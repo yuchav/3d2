@@ -1,27 +1,25 @@
 var sks = [{
-    chapter: '0',
+    chapter: '1',
     details: {
-        h: 'ZERO',
-        p: '0'
+        h: '陆家嘴',
+        p:'Shanghai'
     },
-    lv3Media: 'img/lv3/umbrella-level3.jpg',
-    loadingMedia: 'img/loading/preloader-umbrella.jpg',
-    lv3LoadingMedia: 'img/loading/preloader-umbrella.jpg',
+    loadingMedia: 'img/panorama/lujiazui/mobile_f.jpg',
     media: [
-        'img/panorama/mobile_n.jpg',
-        'img/panorama/mobile_e.jpg',
-        'img/panorama/mobile_s.jpg',
-        'img/panorama/mobile_w.jpg',
-        'img/panorama/mobile_u.jpg',
-        'img/panorama/mobile_d.jpg'
+        'img/panorama/lujiazui/mobile_f.jpg',
+        'img/panorama/lujiazui/mobile_r.jpg',
+        'img/panorama/lujiazui/mobile_b.jpg',
+        'img/panorama/lujiazui/mobile_l.jpg',
+        'img/panorama/lujiazui/mobile_u.jpg',
+        'img/panorama/lujiazui/mobile_d.jpg'
     ],
     hotSpots: {
         images: [{
             face: 'n',
-            x: '50%',
+            x: '72%',
             y: '50%',
-            media: 'img/panorama/mobile_n.jpg',
-            caption: '图'
+            media: 'img/panorama/lujiazui/mobile_f.jpg',
+            caption: '上海中心'
         }]/*,
         videos: [{
             face: 'n',
@@ -38,22 +36,19 @@ var sks = [{
         y: 180
     }
 }, {
-    chapter: '1',
+    chapter: '2',
     details: {
-        h: 'ONE',
-        p: '一个'
+        h: '欢乐谷',
+        p: 'Sheshan'
     },
-    lv3Media: 'img/lv3/menswear-level3.jpg',
-    loadingMedia: 'img/loading/preloader-menswear.jpg',
-    lv3LoadingMedia: 'img/loading/preloader-menswear.jpg',
+    loadingMedia: 'img/panorama/huanlegu/mobile_f.jpg',
     media: [
-
-        'img/panorama/luyi_n.jpg',
-        'img/panorama/luyi_e.jpg',
-        'img/panorama/luyi_s.jpg',
-        'img/panorama/luyi_w.jpg',
-        'img/panorama/luyi_u.jpg',
-        'img/panorama/luyi_d.jpg'
+        'img/panorama/huanlegu/mobile_f.jpg',
+        'img/panorama/huanlegu/mobile_r.jpg',
+        'img/panorama/huanlegu/mobile_b.jpg',
+        'img/panorama/huanlegu/mobile_l.jpg',
+        'img/panorama/huanlegu/mobile_u.jpg',
+        'img/panorama/huanlegu/mobile_d.jpg'
     ],
     hotSpots: {
         /*images: [{
@@ -78,21 +73,19 @@ var sks = [{
         y: 180
     }
 }, {
-    chapter: '2',
+    chapter: '3',
     details: {
-        h: 'TWO',
-        p: '2'
+        h: '民宿',
+        p: 'YunNan'
     },
-    lv3Media: 'img/lv3/umbrella-level3.jpg',
-    loadingMedia: 'img/loading/preloader-umbrella.jpg',
-    lv3LoadingMedia: 'img/loading/preloader-umbrella.jpg',
+    loadingMedia: 'img/panorama/minsu/mobile_f.jpg',
     media: [
-        'img/panorama/yuxiao_n.jpeg',
-        'img/panorama/yuxiao_e.jpeg',
-        'img/panorama/yuxiao_s.jpeg',
-        'img/panorama/yuxiao_w.jpeg',
-        'img/panorama/yuxiao_u.jpeg',
-        'img/panorama/yuxiao_d.jpeg'
+        'img/panorama/minsu/mobile_f.jpg',
+        'img/panorama/minsu/mobile_r.jpg',
+        'img/panorama/minsu/mobile_b.jpg',
+        'img/panorama/minsu/mobile_l.jpg',
+        'img/panorama/minsu/mobile_u.jpg',
+        'img/panorama/minsu/mobile_d.jpg'
     ],
     hotSpots: {
         /*

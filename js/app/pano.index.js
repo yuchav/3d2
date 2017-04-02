@@ -200,25 +200,7 @@ define([
 
 	//添加其他loading的内容
 	var preloadimgs = [
-		"img/ui/PANO_logo.png",
-		"img/ui/PANO_intro.jpg", //intro背景
-		"img/ui/PANO_close_black.png", //黑色关闭按钮
-		"img/ui/PANO_close_white.png", //白色关闭按钮
-		"img/ui/PANO_ending.jpg", //ending page
-		"img/ui/PANO_segment.png",
-		"img/ui/pl.png", //上一个和下一个
-		"img/ui/pr.png", //上一个和下一个
-		"img/lv3/iphone.png", //横屏
-		"img/lv3/e2.png",
-		"img/lv3/but.png", //下面的阴影部分
-		"img/lv3/gyro_icon_text.png", //ico1tet
-		"img/lv3/swipe_icon_text.png",
-		"img/lv3/tap_icon_text.png",
-		"img/lv3/icon.png", //icon
-		"img/lv3/icon2.png",
-		"img/lv3/icon3.png",
-		"img/lv3/v.png",
-		"img/ui/ksty.png"
+		"img/panorama/lujiazui/mobile_f.jpg" //intro背景
 	];
 
 	for (var i = 0; i < skins.length; i++) {

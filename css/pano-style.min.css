@@ -463,25 +463,18 @@ BODY.inertia {
 	background-size: 100% 100%;
 	margin: 0 auto 80px*/
 }
-.PANO_ee_content DIV.logo {}
 
-.PANO_ee_content DIV.logo-sub {
-	width: 183px;
-	margin: 0px auto 73px auto;
-	font-size: 14px;
-	color: #fff;
-	line-height: 150%;
-	font-weight: normal;
-}
 .PANO_ee_content SPAN.button {
-	background: rgba(0, 0, 0, 0.9);
-	line-height: 50px;
+	background: rgba(0, 0, 0, 0.4);
+	line-height: 200px;
+	width:260px;
 	font-size: 24px;
-	color: #fff;
+	color: rgba(255,255,255,0.7);
 	display: block;
 	font-weight:normal;
 	margin: 0 auto;
-	box-shadow: 0 0 4px rgba(255,255,255,0.8);
+	box-shadow:0 0 12px rgba(255,255,255,0.8);
+	border:1px solid rgba(255,255,255,0.6);
 }
 
 #PANO_load {
@@ -757,11 +750,11 @@ BODY.inertia {
 	margin: 0 auto 15px
 }*/
 .PANO_instructOn {
-	-webkit-animation: instructionOn 4s linear 0s forwards;
-	-moz-animation: instructionOn 4s linear 0s forwards;
-	-ms-animation: instructionOn 4s linear 0s forwards;
-	-o-animation: instructionOn 4s linear 0s forwards;
-	animation: instructionOn 4s linear 0s forwards
+	-webkit-animation: instructionOn 3s linear 0s forwards;
+	-moz-animation: instructionOn 3s linear 0s forwards;
+	-ms-animation: instructionOn 3s linear 0s forwards;
+	-o-animation: instructionOn 3s linear 0s forwards;
+	animation: instructionOn 3s linear 0s forwards
 }
 @-webkit-keyframes instructionOn {
 	0% {
@@ -997,7 +990,6 @@ BODY.inertia {
 	text-align: center
 }
 .PANO_lb_image_stage {
-	border-radius:10px;
 	overflow:hidden;
 	width: 270px;
 	margin: auto;
