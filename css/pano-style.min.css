@@ -1168,15 +1168,17 @@ BODY.inertia {
 	margin: 0 auto;
 	background-size: 100%;
 	position: absolute;
-	bottom:30px;
+	bottom:10%;
 	left: 50%;
 	margin-left: -100px;
 	z-index: 1000;
 	width: 200px;
 	text-align: center;
-	font-size: 14px;
-	color: #B5B5B5;
-	text-decoration: underline;
+	font-size: 16px;
+	color: #fff;
+	background:rgba(0,0,0,0.5);
+	padding:10px;
+
 }
 .gory_icon{
 	width: 120px;

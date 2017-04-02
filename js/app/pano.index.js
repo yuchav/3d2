@@ -200,7 +200,9 @@ define([
 
 	//添加其他loading的内容
 	var preloadimgs = [
-		"img/panorama/lujiazui/mobile_f.jpg" //intro背景
+		"img/panorama/lujiazui/mobile_f.jpg", //intro背景
+		"img/lv3/icon2.png", //滑动
+		"img/lv3/icon3.png" //指点
 	];
 
 	for (var i = 0; i < skins.length; i++) {
