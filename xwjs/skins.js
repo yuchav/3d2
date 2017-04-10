@@ -33,16 +33,18 @@ var sks = [{
                 media: 'img/media/1/c.jpg',
                 caption: ''
             }],
-            videos: [{
-                face: 'n',
-                x: '27%',
-                y: '83%',
-                media: {
-                    mp4: 'http://yuchav.qiniudn.com/xuejing.mp4'
-                },
-                pic: 'img/media/1/xuejing.jpg',
-                caption: ''
-            },{
+            videos: [
+            //{
+            //     face: 'n',
+            //     x: '27%',
+            //     y: '83%',
+            //     media: {
+            //         mp4: 'http://yuchav.qiniudn.com/xuejing.mp4'
+            //     },
+            //     pic: 'img/media/1/xuejing.jpg',
+            //     caption: ''
+            // },
+            {
                 face: 'n',
                 x: '32%',
                 y: '65%',
@@ -51,16 +53,19 @@ var sks = [{
                 },
                 pic: 'img/media/1/lingdao.jpg',
                 caption: ''
-            },{
-                face: 'n',
-                x: '48%',
-                y: '85%',
-                media: {
-                    mp4: 'http://yuchav.qiniudn.com/tuichang.mp4'
-                },
-                pic: 'img/media/1/tuichang.jpg',
-                caption: ''
-            }]
+            }
+            //,
+            //{
+            //     face: 'n',
+            //     x: '48%',
+            //     y: '85%',
+            //     media: {
+            //         mp4: 'http://yuchav.qiniudn.com/tuichang.mp4'
+            //     },
+            //     pic: 'img/media/1/tuichang.jpg',
+            //     caption: ''
+            // }
+            ]
         },
         range: {
             y: 180
