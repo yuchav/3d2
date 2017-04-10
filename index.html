@@ -21,10 +21,16 @@
 
 <body style='background:black;'>
 
-    <audio controls="controls" autoplay="autoplay" style="width:1px;height:1px;overflow:hidden;">
+    <audio id="audio" controls="controls" autoplay="autoplay" style="display:none;">
         <source src="./song.mp3" type="audio/mpeg" />
     </audio>
-    
+    <script type="text/javascript">
+    if(wx){
+        wx.ready(function() {
+           document.getElementById('audio')[0].play();
+        }); 
+    }    
+    </script>
     <div id='PANO_experience_entrance'>
         <div id='PANO_ee_bkg_wrap'>
             <div id='PANO_ee_bkg' class="PANO_ee_bkg"></div>
