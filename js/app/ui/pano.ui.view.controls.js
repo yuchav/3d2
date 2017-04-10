@@ -118,7 +118,7 @@ define([
 		*	Add listener
 		*/
 		this.imageLoader.addEventListener('onLoad', imageLoaded);
-		this.imageLoader.load(['img/panorama/lujiazui/mobile_f.jpg','img/panorama/lujiazui/mobile_f.jpg']);
+		this.imageLoader.load(['img/ui/intro.jpg','img/panorama/luyi3/1_f.jpg']);
 
 	}
 

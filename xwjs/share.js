@@ -10,8 +10,8 @@
 	function onBridgeReady() {
 		var img_url = "http://shp.qpic.cn/app_actsec/4376ae1e0cf0ccce3c76ed1237f64bc6ed27ecf3747de421afbef1a2acd7f4289c69c6b49f8e523544a06468c46ffd9cefcbd647f23021a1/0",
 			url = window.location.href,
-			title = "Burberry上海盛典全景",
-			content = "探索London in Shanghai博柏利盛典，体验身临其境的震撼全景。";
+			title = "测试",
+			content = "测试";
 			if(url.indexOf('?')<0){
 				url = url + '?user=xiaowei';
 			}

@@ -457,24 +457,33 @@ BODY.inertia {
 	display: table-cell
 }
 .PANO_ee_content DIV.logo {
-	/*width: 237px;
+	width: 66px;
 	height: 66px;
-	background: url(../img/ui/PANO_logo.png) center center no-repeat;
+	background: url(../img/ui/logo.jpg) center center no-repeat;
 	background-size: 100% 100%;
-	margin: 0 auto 80px*/
+	position:absolute;
+	border-radius:5px;
+	left:50%;
+	margin-left:-33px;
+	top:200px;
+}
+
+.logo-sub{
+	color:#fff;
 }
 
 .PANO_ee_content SPAN.button {
-	background: rgba(0, 0, 0, 0.4);
-	line-height: 200px;
-	width:260px;
-	font-size: 24px;
-	color: rgba(255,255,255,0.7);
-	display: block;
-	font-weight:normal;
-	margin: 0 auto;
-	box-shadow:0 0 12px rgba(255,255,255,0.8);
-	border:1px solid rgba(255,255,255,0.6);
+	line-height: 42px;
+    background: #fff;
+    width: 180px;
+    font-size: 17px;
+    display: block;
+    font-weight: normal;
+    position:absolute;
+    bottom:160px;
+	left:50%;
+	margin-left:-90px;
+    border-radius: 4px;
 }
 
 #PANO_load {
@@ -1026,7 +1035,6 @@ BODY.inertia {
 	display: none;
 	border: 1px solid rgba(255, 255, 255, .4);
 	opacity: 0;
-	border-radius:10px;
 	overflow:hidden;
 	-webkit-transition: opacity 1s ease-in-out 0s;
 	-moz-transition: opacity 1s ease-in-out 0s;
