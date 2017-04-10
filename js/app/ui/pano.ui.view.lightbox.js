@@ -154,15 +154,15 @@ define([
 			 *
 			 */
 			$("#PANO_lb_image_stage_img").remove();
-			trckingCodeWrap(e.getAttribute('data-tracking'));
+			//trckingCodeWrap(e.getAttribute('data-tracking'));
 
 			//
 			this.loadImage(e.getAttribute('data-media'), e.getAttribute('data-caption'), e.getAttribute('id'))
 		} else if (e.getAttribute('data-type') === 'video') {
-			trckingCodeWrap(e.getAttribute('data-tracking'));
+			//trckingCodeWrap(e.getAttribute('data-tracking'));
 
 			this.stageVideo.style.display = 'block';
-			//
+
 			this.loadVideo(e.getAttribute('data-media'))
 		}
 		/*

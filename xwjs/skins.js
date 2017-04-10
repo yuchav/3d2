@@ -41,7 +41,7 @@ var sks = [{
                     mp4: 'http://yuchav.qiniudn.com/xuejing.mp4'
                 },
                 pic: 'img/media/1/xuejing.jpg',
-                caption: '1'
+                caption: ''
             },{
                 face: 'n',
                 x: '32%',
@@ -50,7 +50,7 @@ var sks = [{
                     mp4: 'http://yuchav.qiniudn.com/lingdao.mp4'
                 },
                 pic: 'img/media/1/lingdao.jpg',
-                caption: '2'
+                caption: ''
             },{
                 face: 'n',
                 x: '48%',
@@ -59,7 +59,7 @@ var sks = [{
                     mp4: 'http://yuchav.qiniudn.com/tuichang.mp4'
                 },
                 pic: 'img/media/1/tuichang.jpg',
-                caption: '3'
+                caption: ''
             }]
         },
         range: {
