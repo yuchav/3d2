@@ -4,7 +4,7 @@ var sks = [{
             h: '秀场',
             p: 'SHOW'
         },
-        loadingMedia: 'img/panorama/luyi3/1_f.jpg',
+        loadingMedia: 'img/ui/loading_1.jpg',
         media: [
             'img/panorama/luyi3/1_f.jpg',
             'img/panorama/luyi3/1_r.jpg',
@@ -41,7 +41,7 @@ var sks = [{
                     mp4: 'http://yuchav.qiniudn.com/xuejing.mp4'
                 },
                 pic: 'img/media/1/xuejing.jpg',
-                caption: ''
+                caption: '1'
             },{
                 face: 'n',
                 x: '32%',
@@ -50,7 +50,7 @@ var sks = [{
                     mp4: 'http://yuchav.qiniudn.com/lingdao.mp4'
                 },
                 pic: 'img/media/1/lingdao.jpg',
-                caption: ''
+                caption: '2'
             },{
                 face: 'n',
                 x: '48%',
@@ -59,7 +59,7 @@ var sks = [{
                     mp4: 'http://yuchav.qiniudn.com/tuichang.mp4'
                 },
                 pic: 'img/media/1/tuichang.jpg',
-                caption: ''
+                caption: '3'
             }]
         },
         range: {
@@ -71,7 +71,7 @@ var sks = [{
             h: '专卖店',
             p: 'STORE'
         },
-        loadingMedia: 'img/panorama/luyi1/mobile_f.jpg',
+        loadingMedia: 'img/ui/loading_2.jpg',
         media: [
             'img/panorama/luyi1/mobile_f.jpg',
             'img/panorama/luyi1/mobile_r.jpg',
@@ -82,38 +82,35 @@ var sks = [{
         ],
         hotSpots: {
             images: [{
-                face: 'n',
-                x: '10%',
-                y: '80%',
+                face: 'w',
+                x: '25%',
+                y: '75%',
                 media: 'img/media/2/a.jpeg',
                 caption: ''
             }, {
                 face: 'n',
-                x: '10%',
-                y: '100%',
+                x: '50%',
+                y: '90%',
                 media: 'img/media/2/b.jpeg',
                 caption: ''
             }, {
                 face: 'n',
-                x: '82%',
-                y: '63%',
+                x: '80%',
+                y: '75%',
                 media: 'img/media/2/c.jpeg',
                 caption: ''
             }, {
                 face: 'n',
-                x: '100%',
-                y: '100%',
+                x: '150%',
+                y: '120%',
                 media: 'img/media/2/d.jpeg',
                 caption: ''
-            }],
-            videos: [{
-                face: 'n',
-                x: '48%',
-                y: '34%',
-                media: {
-                    mp4: 'http://yuchav.qiniudn.com/2.mp4'
-                },
-                pic: 'img/media/2/a.jpeg',
+            },
+            {
+                face: 'e',
+                x: '100%',
+                y: '85%',
+                media: 'img/media/2/e.jpeg',
                 caption: ''
             }]
         },

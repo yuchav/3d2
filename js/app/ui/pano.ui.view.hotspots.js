@@ -93,6 +93,7 @@ define([
 
 			if(e.type.match(/down|start|click|end/i)){
 
+
 				if(!self.lightbox.isOpen && self.canClick)
 				{
 					/*
