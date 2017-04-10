@@ -1,8 +1,8 @@
 var sks = [{
         chapter: '0',
         details: {
-            h: '好孩子秀台',
-            p: 'Shanghai'
+            h: '秀场',
+            p: 'SHOW'
         },
         loadingMedia: 'img/panorama/luyi3/1_f.jpg',
         media: [
@@ -16,38 +16,50 @@ var sks = [{
         hotSpots: {
             images: [{
                 face: 'n',
-                x: '10%',
-                y: '75%',
-                media: 'img/media/1/a.jpeg',
-                caption: '示例地点'
+                x: '-15%',
+                y: '90%',
+                media: 'img/media/1/a.jpg',
+                caption: ''
             }, {
                 face: 'n',
-                x: '28%',
-                y: '83%',
-                media: 'img/media/1/b.jpeg',
-                caption: '示例地点'
-            }, {
-                face: 'n',
-                x: '50%',
-                y: '80%',
-                media: 'img/media/1/c.jpeg',
-                caption: '示例地点'
+                x: '33.2%',
+                y: '76%',
+                media: 'img/media/1/b.jpg',
+                caption: ''
             }, {
                 face: 'n',
                 x: '70%',
                 y: '87%',
-                media: 'img/media/1/d.jpeg',
-                caption: '示例地点'
+                media: 'img/media/1/c.jpg',
+                caption: ''
             }],
             videos: [{
                 face: 'n',
-                x: '32%',
-                y: '75%',
+                x: '27%',
+                y: '83%',
                 media: {
-                    mp4: 'http://yuchav.qiniudn.com/1.mp4'
+                    mp4: 'http://yuchav.qiniudn.com/xuejing.mp4'
                 },
-                pic: 'img/panorama/luyi1/mobile_f.jpg',
-                caption: '领导发言'
+                pic: 'img/media/1/xuejing.jpg',
+                caption: ''
+            },{
+                face: 'n',
+                x: '32%',
+                y: '65%',
+                media: {
+                    mp4: 'http://yuchav.qiniudn.com/lingdao.mp4'
+                },
+                pic: 'img/media/1/lingdao.jpg',
+                caption: ''
+            },{
+                face: 'n',
+                x: '48%',
+                y: '85%',
+                media: {
+                    mp4: 'http://yuchav.qiniudn.com/tuichang.mp4'
+                },
+                pic: 'img/media/1/tuichang.jpg',
+                caption: ''
             }]
         },
         range: {
@@ -56,8 +68,8 @@ var sks = [{
     }, {
         chapter: '1',
         details: {
-            h: '好孩子门店',
-            p: 'Shanghai'
+            h: '专卖店',
+            p: 'STORE'
         },
         loadingMedia: 'img/panorama/luyi1/mobile_f.jpg',
         media: [
@@ -74,25 +86,25 @@ var sks = [{
                 x: '10%',
                 y: '80%',
                 media: 'img/media/2/a.jpeg',
-                caption: '示例地点'
+                caption: ''
             }, {
                 face: 'n',
                 x: '10%',
                 y: '100%',
                 media: 'img/media/2/b.jpeg',
-                caption: '示例地点'
+                caption: ''
             }, {
                 face: 'n',
                 x: '82%',
                 y: '63%',
                 media: 'img/media/2/c.jpeg',
-                caption: '示例地点'
+                caption: ''
             }, {
                 face: 'n',
                 x: '100%',
                 y: '100%',
                 media: 'img/media/2/d.jpeg',
-                caption: '示例地点'
+                caption: ''
             }],
             videos: [{
                 face: 'n',
@@ -102,7 +114,7 @@ var sks = [{
                     mp4: 'http://yuchav.qiniudn.com/2.mp4'
                 },
                 pic: 'img/media/2/a.jpeg',
-                caption: '退场'
+                caption: ''
             }]
         },
         range: {
