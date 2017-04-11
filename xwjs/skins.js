@@ -37,8 +37,8 @@ var sks = [{
             },
              {
                 face: 'n',
-                x: '36.2%',
-                y: '76%',
+                x: '17.2%',
+                y: '81%',
                 media: 'img/media/1/liangxiaowucai.jpg',
                 caption: ''
             }, {
