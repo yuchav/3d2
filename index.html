@@ -20,11 +20,10 @@
 </head>
 
 <body style='background:black;'>
-
     <!-- <audio id="audio" controls="controls" autoplay="autoplay" style="display:none;">
         <source src="./song.mp3" type="audio/mpeg" />
     </audio> -->
-     <audio id="bgmusic" style="display:none;" src="http://yuchav.qiniudn.com/song.mp3" autoplay preload loop controls></audio>
+    <audio id="bgmusic" style="display:none;" src="http://yuchav.qiniudn.com/song.mp3" autoplay preload loop="loop" controls></audio>
     <script type="text/javascript">
     // 方法1: 现在微信官方已经推出了微信JS-SDK, 最好还是不要使用"野生"方式, 因为不知道什么时候就可以不能用了!
     // http://mp.weixin.qq.com/wiki/7/aaa137b55fb2e0456bf8dd9148dd613f.html
@@ -45,14 +44,15 @@
     }
     // 方法2: "野生"方法, 借用原来老的 WeixinJSBridge
     function autoPlayAudio2() {
-        window.onload = function() {
-            // alert(typeof WeixinJSBridge);
-            WeixinJSBridge.invoke('getNetworkType', {}, function(e) {
-                // 在这里拿到 e.err_msg, 这里面就包含了所有的网络类型
-                // alert(e.err_msg);
-                document.getElementById('bgmusic').play();
-            });
-        };
+        window.addEventListener('load', function() {
+            if (window.WeixinJSBridge) {
+                WeixinJSBridge.invoke('getNetworkType', {}, function(e) {
+                    // 在这里拿到 e.err_msg, 这里面就包含了所有的网络类型
+                    // alert(e.err_msg);
+                    document.getElementById('bgmusic').play();
+                });
+            }
+        });
     }
     // 大家或多或少都知道 iOS Safari 不允许自动播放 audio, 可能已经被坑过了,
     // 但微信内嵌的浏览器应该是做了一些定制化, 允许自动播放 audio.
@@ -66,7 +66,7 @@
     // 我可以推测是 iOS 9 的兼容性问题么?
     // 
     //autoPlayAudio1(); // 推荐使用方法1
-     autoPlayAudio2(); // 也可以试一试方法2   
+    autoPlayAudio2(); // 也可以试一试方法2
     </script>
     <div id='PANO_experience_entrance'>
         <div id='PANO_ee_bkg_wrap'>

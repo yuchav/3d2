@@ -841,13 +841,15 @@ BODY.inertia {
 	left: 0;
 	width: 100px;
 	background:url(../img/ui/pl.png) no-repeat 16px 50px;
-	background-size: 25px 25px
+	background-size: 25px 25px;
+	z-index:9999;
 }
 .PANO_c_b_r {
 	right: 0px;
 	width: 100px;
 	background:url(../img/ui/pr.png) no-repeat 63px 50px;
-	background-size: 25px 25px
+	background-size: 25px 25px;
+	z-index:9999;
 }
 .PANO_c_b_v {
 	width: 120px;

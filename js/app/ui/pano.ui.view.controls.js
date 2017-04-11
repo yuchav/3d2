@@ -73,11 +73,11 @@ define([
 			*	Set as backgrounds
 			*/
 			self.entranceBkg.style.backgroundImage = 'url("'+e.images[0].src+'")';
-			self.entranceBkg.style.backgroundSize = 'auto 100%';
+			self.entranceBkg.style.backgroundSize = 'auto 80%';
 			self.entranceBkg.style.backgroundPosition = 'center center';
 			//
 			self.replayBkg.style.backgroundImage = 'url("'+e.images[1].src+'")';
-			self.replayBkg.style.backgroundSize = 'auto 100%';
+			self.replayBkg.style.backgroundSize = 'auto 80%';
 			self.replayBkg.style.backgroundPosition = 'center center';
 			/*
 			*	Show the entrance button

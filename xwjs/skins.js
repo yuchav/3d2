@@ -20,17 +20,32 @@ var sks = [{
                 y: '90%',
                 media: 'img/media/1/a.jpg',
                 caption: ''
-            }, {
+            },
+            {
                 face: 'n',
-                x: '33.2%',
+                x: '27%',
+                y: '83%',
+                media: 'img/media/1/hongseshafa.jpg',
+                caption: ''
+            },
+            {
+                face: 'n',
+                x: '48%',
+                y: '85%',
+                media: 'img/media/1/xiaoshuaige.jpg',
+                caption: ''
+            },
+             {
+                face: 'n',
+                x: '36.2%',
                 y: '76%',
-                media: 'img/media/1/b.jpg',
+                media: 'img/media/1/liangxiaowucai.jpg',
                 caption: ''
             }, {
                 face: 'n',
                 x: '70%',
                 y: '87%',
-                media: 'img/media/1/c.jpg',
+                media: 'img/media/1/xiaozhulan.jpg',
                 caption: ''
             }],
             videos: [
@@ -49,9 +64,9 @@ var sks = [{
                 x: '32%',
                 y: '65%',
                 media: {
-                    mp4: 'http://yuchav.qiniudn.com/lingdao.mp4'
+                    mp4: 'http://yuchav.qiniudn.com/xuejing.mp4'
                 },
-                pic: 'img/media/1/lingdao.jpg',
+                pic: 'img/media/1/xuejing.jpg',
                 caption: ''
             }
             //,
